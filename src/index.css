@@ -1,0 +1,182 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #0d6efd;
+  --green: #4cee90;
+  --white: #ffffff;
+}
+
+header ul 
+{
+  display: flex;
+}
+header
+{
+  padding:20px;
+  background-color: #FFF;
+  flex-wrap: wrap;
+  background-color: var(--green);
+}
+.mainimg
+{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-image: url("https://zu-sauber.eu/images/eb0a42b949bfa1896a9fdd1ab7a79b42.jpg");
+}
+.mainimg h1
+{
+    font-size: 54px;
+    font-family: "Armata";
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+
+}
+.box
+{
+  z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50%;
+    padding-top: 50px;
+}
+/* .background
+{
+  background-color: rgba(10, 19, 35, 0.15);
+
+} */
+.input-src input
+{
+    width: 300px;
+    height: 47px;
+}
+.hidden-dev
+{
+  display: none;
+}
+.item-list
+{
+  border-bottom: solid #44444463 1px;
+  padding: 6px;
+  margin-bottom: 11px;
+}
+.hidden-list
+{
+    height: 0px;
+    overflow: hidden;
+    z-index: 300;
+    transition: all 1s;
+    display: none;
+}
+.card:hover
+{
+  transform: translate(50px,-50px);
+  box-shadow: 0px 0px 10px ;
+}
+.card
+{
+  transition: all 0.4s ;
+    border-radius: 50px 10px 50px 100px;
+    margin: 5px;
+    padding: 10px 10px 30px;
+}
+.p-12
+{
+  padding: 12px;
+}
+.card-img
+{
+  margin: 30px 0px 10px;
+}
+/* .title-card 
+{
+  margin: 10px 0px 50px;
+} */
+.title-card h4
+{
+  font-size: 16;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.title-card p
+{
+    font-size: 15px;
+    text-align: center;
+}
+.card-part
+{
+  margin: 20px 20px ;
+}
+.cover
+{
+    margin: 20px 0px;
+    border-radius: 50px 10px 50px 100px;
+    box-shadow: inset 0px 0px 11px;
+    padding: 0px;
+    background: #44444444;
+}
+.save-logo
+{
+  padding: 10px;
+    border-radius: 50%;
+}
+.bg-text
+{
+  height: 400px;
+  background: cornflowerblue;
+}
+.accordion-item
+{
+  background-color: var(--green);
+}
+.accordion-header button
+{
+  background-color: var(--green);
+}
+.accordion-header
+{
+  background-color: var(--green);
+}
+.alert-order
+{
+    position: fixed;
+    top: 220px;
+    right: 20px;
+    opacity: 0;
+    animation-name: opacity ;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+.heddinlist  
+{
+    border-radius: 12px;
+    padding: 20px;
+    top: 150px;
+    background-color: var(--blue);
+    right: -130px;
+    z-index: -1;
+    position: absolute;
+    height: auto;
+    transition: all 0.5s;
+}
+.translate
+{
+  transform: translatex(-130px);
+}
+@keyframes opacity {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}

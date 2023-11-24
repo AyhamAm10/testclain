@@ -1,0 +1,67 @@
+@for $i from 1 through 50{
+    .m-#{$i}{
+        margin: $i +px;
+    }
+}
+@for $i from 1 through 50{
+    .mt-#{$i}{
+        margin-top: $i +px;
+    }
+}
+@for $i from 1 through 50{
+    .mb-#{$i}{
+        margin-bottom: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .ml-#{$i}{
+        margin-left: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .mr-#{$i}{
+        padding-right: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .pt-#{$i}{
+        padding-top: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .pl-#{$i}{
+        padding-left: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .pr-#{$i}{
+        padding-right: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .pb-#{$i}{
+        padding-bottom: $i +px;
+    }
+}
+@for $i from 1 through 100{
+    .p-#{$i}{
+        padding: $i +px;
+    }
+}
+@for $i from 1 through 9{
+    .font-w-#{$i}{
+        font-weight: $i *100 ;
+    }
+}
+@for $i from 1 through 400{
+    .h-#{$i}{
+        height: $i + px ;
+    }
+    
+}
+@for $i from 1 through 50{
+    .font-s-#{$i}{
+        font-size: $i + px ;
+    }
+    
+}
